@@ -33,13 +33,13 @@ const getValidatedChain = (chainIdHex: string) => {
 const getRegistryCommitCallData = () =>
   encodeFunctionData({
     abi: registryContractAbi,
-    functionName: 'increment1',
+    functionName: 'increament1',
   });
 
 const getRegistryRevealCallData = () =>
   encodeFunctionData({
     abi: registryContractAbi,
-    functionName: 'increment2',
+    functionName: 'increament2',
   });
 
 // Main handler function for POST request

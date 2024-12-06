@@ -18,10 +18,10 @@ export function getSampleAsyncRegistryPermissions(): Omit<
           abi: registryContractAbi,
           functions: [
             {
-              functionName: 'increment1',
+              functionName: 'increament1',
             },
             {
-              functionName: 'increment2',
+              functionName: 'increament2',
             },
           ],
         },
